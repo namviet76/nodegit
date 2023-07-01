@@ -2,14 +2,14 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start":"nodemon --inspect index.js",
+    "start": "nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thanhphan1976/nodejs.git"
+    "url": "git+https:https://github.com/namviet76/nodejs.git"
   },
   "keywords": [
     "nodejs",
@@ -18,13 +18,14 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thanhphan1976/nodejs/issues"
+    "url": "https://github.com/namviet76/nodejs/issues"
   },
-  "homepage": "https://github.com/thanhphan1976/nodejs#readme",
+  "homepage": "https://github.com/namviet76/nodejs#readme",
   "dependencies": {
     "express": "^4.18.2"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.22"
   }
 }
